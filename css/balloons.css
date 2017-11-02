@@ -1,0 +1,215 @@
+/* Sass Arrays and Mixins */
+body {
+  background-color: #ddd;
+}
+
+.balloons {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index:0;
+}
+
+.balloon {
+  border-radius: 50%  50%  50%  50%  / 40%  40% 60% 60%;
+  display: block;
+  height: 100px;
+  opacity: 0.8;
+  position: absolute;
+  width: 80px;
+  z-index:0;
+}
+.balloon:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  bottom: -5px;
+  content: "";
+  height: 0;
+  left: 45%;
+  position: absolute;
+  width: 0;
+}
+
+.balloon0 {
+  background-color: #714BBD;
+  left: 85%;
+  animation: flyingBalloon 8s -53s linear infinite;
+  -webkit-animation: flyingBalloon 8s -53s linear infinite;
+  -moz-animation: flyingBalloon 8s -53s linear infinite;
+  -ms-animation: flyingBalloon 8s -53s linear infinite;
+  -o-animation: flyingBalloon 8s -53s linear infinite;
+}
+.balloon0:after {
+  border-bottom: 10px solid #714BBD;
+}
+
+.balloon1 {
+  background-color: #C2428A;
+  left: 48%;
+  animation: flyingBalloon 24s -67s linear infinite;
+  -webkit-animation: flyingBalloon 24s -67s linear infinite;
+  -moz-animation: flyingBalloon 24s -67s linear infinite;
+  -ms-animation: flyingBalloon 24s -67s linear infinite;
+  -o-animation: flyingBalloon 24s -67s linear infinite;
+}
+.balloon1:after {
+  border-bottom: 10px solid #C2428A;
+}
+
+.balloon2 {
+  background-color: #714BBD;
+  left: 83%;
+  animation: flyingBalloon 25s -88s linear infinite;
+  -webkit-animation: flyingBalloon 25s -88s linear infinite;
+  -moz-animation: flyingBalloon 25s -88s linear infinite;
+  -ms-animation: flyingBalloon 25s -88s linear infinite;
+  -o-animation: flyingBalloon 25s -88s linear infinite;
+}
+.balloon2:after {
+  border-bottom: 10px solid #714BBD;
+}
+
+.balloon3 {
+  background-color: #9045B5;
+  left: 49%;
+  animation: flyingBalloon 9s -89s linear infinite;
+  -webkit-animation: flyingBalloon 9s -89s linear infinite;
+  -moz-animation: flyingBalloon 9s -89s linear infinite;
+  -ms-animation: flyingBalloon 9s -89s linear infinite;
+  -o-animation: flyingBalloon 9s -89s linear infinite;
+}
+.balloon3:after {
+  border-bottom: 10px solid #9045B5;
+}
+
+.balloon4 {
+  background-color: #C2428A;
+  left: 77%;
+  animation: flyingBalloon 15s -87s linear infinite;
+  -webkit-animation: flyingBalloon 15s -87s linear infinite;
+  -moz-animation: flyingBalloon 15s -87s linear infinite;
+  -ms-animation: flyingBalloon 15s -87s linear infinite;
+  -o-animation: flyingBalloon 15s -87s linear infinite;
+}
+.balloon4:after {
+  border-bottom: 10px solid #C2428A;
+}
+
+.balloon5 {
+  background-color: #714BBD;
+  left: 42%;
+  animation: flyingBalloon 17s -60s linear infinite;
+  -webkit-animation: flyingBalloon 17s -60s linear infinite;
+  -moz-animation: flyingBalloon 17s -60s linear infinite;
+  -ms-animation: flyingBalloon 17s -60s linear infinite;
+  -o-animation: flyingBalloon 17s -60s linear infinite;
+}
+.balloon5:after {
+  border-bottom: 10px solid #714BBD;
+}
+
+.balloon6 {
+  background-color: #C2428A;
+  left: 58%;
+  animation: flyingBalloon 21s -70s linear infinite;
+  -webkit-animation: flyingBalloon 21s -70s linear infinite;
+  -moz-animation: flyingBalloon 21s -70s linear infinite;
+  -ms-animation: flyingBalloon 21s -70s linear infinite;
+  -o-animation: flyingBalloon 21s -70s linear infinite;
+}
+.balloon6:after {
+  border-bottom: 10px solid #C2428A;
+}
+
+.balloon7 {
+  background-color: #C43342;
+  left: 95%;
+  animation: flyingBalloon 26s -84s linear infinite;
+  -webkit-animation: flyingBalloon 26s -84s linear infinite;
+  -moz-animation: flyingBalloon 26s -84s linear infinite;
+  -ms-animation: flyingBalloon 26s -84s linear infinite;
+  -o-animation: flyingBalloon 26s -84s linear infinite;
+}
+.balloon7:after {
+  border-bottom: 10px solid #C43342;
+}
+
+.balloon8 {
+  background-color: #C2428A;
+  left: 26%;
+  animation: flyingBalloon 16s -90s linear infinite;
+  -webkit-animation: flyingBalloon 16s -90s linear infinite;
+  -moz-animation: flyingBalloon 16s -90s linear infinite;
+  -ms-animation: flyingBalloon 16s -90s linear infinite;
+  -o-animation: flyingBalloon 16s -90s linear infinite;
+}
+.balloon8:after {
+  border-bottom: 10px solid #C2428A;
+}
+
+.balloon9 {
+  background-color: #457BB5;
+  left: 51%;
+  animation: flyingBalloon 20s -86s linear infinite;
+  -webkit-animation: flyingBalloon 20s -86s linear infinite;
+  -moz-animation: flyingBalloon 20s -86s linear infinite;
+  -ms-animation: flyingBalloon 20s -86s linear infinite;
+  -o-animation: flyingBalloon 20s -86s linear infinite;
+}
+.balloon9:after {
+  border-bottom: 10px solid #457BB5;
+}
+
+.balloon10 {
+  background-color: #C43342;
+  left: 79%;
+  animation: flyingBalloon 14s -80s linear infinite;
+  -webkit-animation: flyingBalloon 14s -80s linear infinite;
+  -moz-animation: flyingBalloon 14s -80s linear infinite;
+  -ms-animation: flyingBalloon 14s -80s linear infinite;
+  -o-animation: flyingBalloon 14s -80s linear infinite;
+}
+.balloon10:after {
+  border-bottom: 10px solid #C43342;
+}
+
+@-webkit-keyframes flyingBalloon {
+  from {
+    bottom: -20%;
+  }
+  to {
+    bottom: 110%;
+  }
+}
+@-moz-keyframes flyingBalloon {
+  from {
+    bottom: -20%;
+  }
+  to {
+    bottom: 110%;
+  }
+}
+@-ms-keyframes flyingBalloon {
+  from {
+    bottom: -20%;
+  }
+  to {
+    bottom: 110%;
+  }
+}
+@-o-keyframes flyingBalloon {
+  from {
+    bottom: -20%;
+  }
+  to {
+    bottom: 110%;
+  }
+}
+@keyframes flyingBalloon {
+  from {
+    bottom: -20%;
+  }
+  to {
+    bottom: 110%;
+  }
+}

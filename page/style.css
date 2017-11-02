@@ -1,0 +1,28 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:url(moscow1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.container
+{
+    width:50%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    padding:10px;
+    background: white;
+    text-align:center;
+    border-radius:15px;
+    border-image:url(shariki.png) 20 round round;
+    -moz-border-image:url(shariki.png) 20 round round;
+    -o-border-image:url(shariki.png) 20 round round;
+    -ms-border-image:url(shariki.png) 20 round round;
+    -webkit-border-image:url(shariki.png) 20 round round;
+}
+
